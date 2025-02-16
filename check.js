@@ -1,4 +1,9 @@
 function check(num){
-    
+    if(num%2==0){
+        return true;
+    }
+    else{
+        return false;
+    }
 }
-check(5);
+console.log(check(5));
