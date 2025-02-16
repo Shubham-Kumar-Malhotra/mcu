@@ -1,9 +1,12 @@
-function check(num){
-    if(num%2==0){
+function check(number){
+    if(number%2==0){
         return true;
-    }
-    else{
+    }else{
         return false;
     }
 }
-console.log(check(5));
+if(check(5) == true){
+    console.log("even number");
+}else{
+    console.log("odd numbeer");
+}
